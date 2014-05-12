@@ -1,0 +1,5 @@
+<?php
+
+define( 'BEITRAG_SICHTBARKEIT_JEDER' , 1 );
+define( 'BEITRAG_SICHTBARKEIT_FREUNDE' , 2 );
+define( 'BEITRAG_SICHTBARKEIT_ICH' , 3 );

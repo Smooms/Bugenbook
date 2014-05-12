@@ -1,0 +1,239 @@
+@CHARSET "UTF-8";
+
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+}
+
+#head{
+	width: 100%;
+	height: 35px;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	margin-left: -8px;
+	padding-right: 8px;
+	background-color: #3B5998;
+	color: white;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-color: black;
+}
+#headlogin{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	left: 0%;
+	top: 0%;
+	margin-left: -8px;
+	padding-right: 8px;
+	background-color: #3B5998;
+	color: white;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-color: black;
+}
+
+.headcontend{
+	width: 800px;
+	height: 35px;
+	margin: 0px auto;
+}
+
+.headcontendlogin{
+	width: 800px;
+	height: 50px;
+	margin: 0px auto;
+}
+
+.headcontend a{
+	color: white;
+	text-decoration: none;
+}
+
+.headcontendlogin a{
+	color: white;
+	text-decoration: none;
+}
+
+.headcontend a:hover{
+	color: white;
+	background-color: #4b67a1;
+	text-decoration: none;
+	height: 30px;
+}
+
+.headcontendlogin a:hover{
+	color: white;
+	background-color: #4b67a1;
+	text-decoration: none;
+	height: 30px;
+}
+
+.headerlogo{
+	font-family: Lucida Console;
+	font-weight: bold;
+	font-size: 16pt;
+	padding-top: 3px;
+	float: left;
+}
+
+li{
+	list-style-type: none;
+	margin-left: -40px;
+	background-color: white;
+}
+
+li.buttonsetting{
+	
+}
+
+#leftMenu a{
+	text-decoration: none;
+	color: black;
+}
+
+#leftMenu ul li:hover{
+	background-color: #eff2f7;
+}
+
+.menu{
+	font-size: 16pt;
+	float: right;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.menbuttons{
+	float: right;
+	width: 250px;
+}
+
+.menbuttons ul{
+	float: right;
+	margin-top: 0.5px;
+	margin-right: -25px;
+}
+
+.menbuttons li{
+	display: inline;
+	background: transparent;
+}
+
+.mendrop {
+	width: 110px;
+	position: fixed;
+	display: none;
+	margin-top: 20px;
+	margin: 20px -150px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+li.buttonsetting:hover > ul.mendrop{
+	display: block;
+	margin: 6px -167px;
+	color: black;
+	text-align: right;
+}
+
+li.buttonsetting:hover{
+	padding-bottom: 20px;
+}
+
+ul.mendrop li{
+	margin-top: 2px;
+	margin-right: 2px;
+	color: black;
+	display: block;
+}
+
+ul.mendrop a{
+	color: black;
+}
+
+.menbuttons_name{
+	width: 180px;
+}
+
+.menbuttons img{
+	width: 15px;
+}
+
+.menubuttons ul{
+	padding: 0;
+}
+
+.searchbar{
+	width: 350px;
+	font-size: 18pt;
+	padding-left: 170px;
+	margin-top: 5px;
+}
+
+.searchbarbutton{
+	float: right;
+	margin-left: -30px;
+
+}
+
+#contend{
+	width: 820px;
+	margin: 0 auto;
+}
+
+.statusfeld{
+	width: 380px;
+	margin-left: 10px;
+}
+
+.timeline{
+	width: 370px;
+	margin-left: 10px;
+}
+
+.timeline_profile_picture{
+	float: left;
+	width: 50px;
+}
+
+.timeline_content{
+	margin-left: 60px;
+	width: 310px;
+}
+
+.timeline_content a{
+	text-decoration: none;
+	color: blue;
+}
+
+.menubar{
+	font-size: 10pt;
+	float: left;
+	width: 200px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.bordercontend{
+	font-size: 12pt;
+	width: 600px;
+	padding-top: 30px;
+	margin-left: 210px;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;	
+}
+
+.termine{
+	float: right;
+	width: 190px;
+}
+
+.einstellungdd{
+	
+}
